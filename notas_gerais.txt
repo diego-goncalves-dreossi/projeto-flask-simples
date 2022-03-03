@@ -1,0 +1,20 @@
+É regras dos frameworks Flask e Django que o projeto tenha uma pasta 
+chamada templates para armazenar os arquivos estáticos, como os HTML.
+
+A função render_template é uma função que renderiza as páginas HTML, ela 
+automaticamente procura uma pasta chamada templates.
+
+Dentro das páginas HTML para conseguir ler uma variavel Python na é 
+preciso envolve-la em {{}}
+
+Servidor Heroku é um servidor gratuito pra iniciantes.
+Para publicar o site no Heroku - tutorial a partir do minuto 39:
+https://www.youtube.com/watch?v=K2ejI4z8Mbg
+
+requirements.txt é um arquivo onde estarão definidos todas as ferramentas
+que o projeto precisa para funcionar.
+
+Procfile é um arquivo sem extensão onde está contido a linha de comando 
+para começar a colocar o site no Heroku. Diz pro Heroku para usar a 
+variavel app definida com Gunicorn para começar o processo web, Há
+outros processos. Gunicorn é um servidor WSGI.
